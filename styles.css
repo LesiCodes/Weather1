@@ -1,0 +1,65 @@
+body {
+	font-family: arial, sans-serif;
+}
+.weather-app {
+	border: 1px solid #dadde1;
+	padding: 15px;
+	margin: 20px auto;
+	border-radius: 5px;
+	max-width: 700px;
+}
+h1 {
+	color: rgb(221, 143, 25);
+	text-align: center;
+}
+h2#date {
+	text-align: center;
+	color: rebeccapurple;
+}
+h3 {
+	font-size: 15px;
+	background: rgb(221, 143, 25);
+}
+
+.sun-icon {
+	color: rgb(241, 207, 14);
+	font-size: 40px;
+	padding: 10px;
+}
+.card {
+	padding: 5px;
+	margin: 15px;
+}
+.time {
+	position: relative;
+	top: 45px;
+	left: 300px;
+	right: 113px;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 60px;
+}
+input[type="submit"] {
+	border-radius: 40px;
+	border: solid 1px;
+}
+input[type="text"] {
+	border-radius: 40px;
+	border: solid 1px;
+}
+li {
+	color: #7c7c7c;
+	font-size: 16px;
+	font-weight: 100;
+	height: 20px;
+	line-height: 1;
+	list-style: none;
+}
+li#date {
+	color: black;
+	text-align: center;
+	font-size: 23px;
+}
